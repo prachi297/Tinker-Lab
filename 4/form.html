@@ -1,0 +1,111 @@
+
+<html>
+<head>
+<title>Form</title>
+</head>
+
+<body>
+  <style>
+    body {
+      background-image: url('SIT.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      }
+</style>
+
+<h1>MUSIC</h1>
+<p>SITians, get ready for an exciting "Music Event" that is soon going to take place in our college. All you need to do to take part in this event is to fill and submit this form.</p>
+<hr>
+<br><br><br>
+
+<form>
+ <label> 
+    First Name:
+    <input type="text" name="first_name">
+ </label>
+
+<label for="last_name">Last Name:</label>
+<input type="text" id="last_name" name="last_name">
+<br><br>
+
+<p>Select you Semester:</p>
+<input type="radio" name="sem 1" value="on">Sem 1
+<input type="radio" name="sem 3" value="on">Sem 3
+<input type="radio" name="sem 5" value="on">Sem 5
+<input type="radio" name="sem 7" value="on">Sem 7
+<br><br>
+
+<p>Enter your Email id:</p>
+<input type="email" name="email">
+<br><br>
+
+<p>Enter your password:</p>
+<input type="password" id="password" name="password" required>
+<br><br>
+
+<p>Enter your mobile number:</p>
+<input type="tel" name="usrtel">
+<br><br>
+
+<p>Select which genre songs you would like to present:</p>
+<input type="checkbox" name="type">Pop
+<input type="checkbox" name="type">Country
+<input type="checkbox" name="type">Folk
+<input type="checkbox" name="type">Indie
+<input type="checkbox" name="type">Rock
+<br><br>
+
+<p>Select which instrument are you gonna use:</p>
+<select name="dropdown">
+  <option value="Guitar" selected>Guitar</option>
+  <option value="Violin">Violin</option>
+  <option value="Flute">Flute</option>
+  <option value="Tabla">Tabla</option>
+  <option value="Sitar">Sitar</option>
+  <option value="Piano">Piano</option>
+</select>
+<br>
+
+<p>Other instrument</p>
+<label> 
+    Other Instrument:
+    <input type="text" name="other_instrument">
+</label>
+<br><br>
+
+<p>Upload the song that you will like to play:</p>
+<input type="file" name="music" accept="audio/*"/>
+<br><br>
+
+<p>Select a colour that will match the theme of your song:</p>
+<input type="color" name="Color">
+<br><br>
+
+<p>Select your preferred date for the event:</p>
+<input type="date" name="Date">
+<br><br>
+
+<p>Select the number of songs that you will play:</p>
+<input type="number" name="quantity" min="1" max="3">
+<br><br>
+
+<p>On a scale of 1 to 10 how much would you rate this initiative of hosting a Music Event:</p>
+<input type="range" name="points" min="0" max="10">
+<br><br>
+
+<label>
+Any suggestions from your side to implement in the Event: <br>
+<textarea rows="5" cols="50" name="description">Enter description
+here...</textarea>
+</label>
+<br><br><br>
+
+<input type="submit" name="submit" value="Submit" />
+<input type="reset" name="reset" value="Reset" />
+<input type="button" name="ok" value="OK" />
+<input type="image" name="imagebutton" src="musicimage.jpg" width="120" height="50">
+
+</form>
+</body>
+</html>
