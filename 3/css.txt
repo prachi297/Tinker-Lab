@@ -1,0 +1,29 @@
+<html>
+<head>
+   <title> Division </title>
+<style>
+   .location {
+              background-color:lightblue;
+              color:blue;
+              border: 2px solid black;
+              margin: 20px;
+              padding: 20px;
+              }
+</style>
+</head>
+<body>
+     <div class="location">
+     <h2> JAVA </h2>
+     <p> Java is a high level, general-purpose, memory-safe, object-oriented programming language. It is intended to let programmers write once, run anywhere, meaning that compiled JAVA code can run on all platforms that support Java without the need to recompile. </p>
+</div>
+<div class ="location">
+<h2> Python </h2>
+<p> Python is a high-level, general purpose programming language. Its design philosophy emphasized code readability with th use of significant indentation. Python is dynamically type-checked and garbage-collected.</p>
+</div>
+<div class ="location">
+<h2> C++ </h2>
+<p>C++ is a high-level, general-purpose programming language created by Danish computer scientist Bajne Stroustrap.
+</p>
+</div>
+</body>
+</html>
